@@ -11,7 +11,7 @@
     z-index: 100;
     position: sticky;
     justify-content: space-between;
-    background-color: rgb(250, 234, 204);
+    background-color: white;
     top: 0px;
 }
 
@@ -25,6 +25,10 @@
     margin: 2rem;
     padding-left: 2rem;
     width: 20vw;
+}
+
+#cv:visited {
+    color: black;
 }
 
 #cv {
@@ -42,6 +46,10 @@
     margin-top: 2rem;
 }
 
+.contactIcons {
+    color: black;
+}
+
 .contactIcons:hover {
     cursor: pointer;
 }
@@ -54,6 +62,10 @@
     width: 20vw;
 }
 
+.title:hover {
+    cursor: pointer;
+}
+
 #title2 {
     text-align: center;
     display: block;
@@ -61,10 +73,16 @@
 
 }
 
+#title2:hover {
+    cursor: pointer;
+}
+
 
 #s1 {
     display: flex; 
-    padding: 0.2rem;    
+    flex-direction: column;
+    flex-basis: 100%;
+    padding: 0.2rem;
 }
 
 .projectLink {
@@ -79,7 +97,7 @@
     width: 100%;
     height: 100%;
     opacity: 0;
-    transition: .5s ease;
+    transition: .7s ease;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -88,7 +106,7 @@
   }
   
 .projectTitle {
-    color: rgb(247, 221, 165);
+    color: white;
     font-size: 20px;
     text-align: center;   
 }
@@ -96,13 +114,6 @@
 .projectImage {
     width: 100%;
 }
-
-.cars {
-    width: 20vw;
-    height: auto;
-    flex: 50%; 
-    margin-left: 0.1rem;
-} 
 
 
 .foot {
@@ -136,9 +147,8 @@
     margin-top: 2rem;
 }
 
-section {
+.section {
     background-color: rgb(226, 220, 197);
-
 }
 
 #myBTN {
