@@ -14,7 +14,7 @@ function hideSections() {
 
 function displaySection (id) {
     hideSections()
-    document.getElementById(id).style.display="block"
+    document.getElementById(id).style.display="flex"
 
 }
 

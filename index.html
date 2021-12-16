@@ -13,19 +13,20 @@
 
    <div class="navbar">
         <nav class="menu">   
-            <span onclick="displaySection('s1')">Projects</span>
-            <span onclick="displaySection('s2')">About</span>
-            <span onclick="displaySection('s3')">Resume</span>
+            <a onclick="displaySection('s1')">Projects</a>
+            <a onclick="displaySection('s2')">About</a>
+            <a id="cv" href="https://1drv.ms/b/s!AjvBFzGwfgKJgQnG5HlH2eZNVgga" target="_blank">Resume</a>
         </nav>
-
         <div class="title">
-            <h2>Zakaria Mouhy Dine</h2>
-            <h4 id="title2">Software Engineer</h4>
+            <a onclick="displaySection('s1')">
+                <h2>Zakaria Mouhy Dine</h2>
+                <h4 id="title2">Software Engineer</h4>
+            </a>
         </div>
 
         <div class="contact">
-            <a class="mail" href="mailto:mouhydinezakaria@gmail.com" target="_blank"><span><i class="far fa-paper-plane"></i></span></a>
-            <a class="linkedin" href="https://www.linkedin.com/in/zakariam/" target="_blank"><span><i class="fab fa-linkedin-in"></i></span></a>
+            <a class="contactIcons" href="mailto:mouhydinezakaria@gmail.com" target="_blank"><span><i class="far fa-paper-plane"></i></span></a>
+            <a class="contactIcons" href="https://www.linkedin.com/in/zakariam/" target="_blank"><span><i class="fab fa-linkedin-in"></i></span></a>
         </div>
 
     </div>
@@ -33,10 +34,19 @@
 
 
     <section id="s1">
-        <div class="projects">
-            <img class="horses" src="Images\Horses.jpg" alt="Horses photo">
-            <img class="cars" src="Images\Cars.jpg" alt="Cars photo">    
-        </div>     
+            <a class = "projectLink">
+                <img class="projectImage" src="Images\Horses.jpg" alt="Horses photo" class="image">
+                <div class="overlay">
+                    <p class="projectTitle">Check out my horse racing game.</p>
+                </div>
+            </a>
+            
+            <a class="projectLink">
+                <img class="projectImage" src="Images\Cars.jpg" alt="Cars photo" class="image">
+                <div class="overlay">
+                    <p class="projectTitle">Check out my cars project.</p>
+                </div>
+            </a>
     </section>  
     
     
@@ -44,22 +54,26 @@
     <section id="s2">
         <div class="about1">
             <div class="intro">
-                <h2>Hey everyone, I'm Zak! 👋🏻 </h2>
+                <h2>Hey everyone, I'm Zack! 👋🏻 </h2>
                 <p>I've always admired how software has the power to change our world. Whether it's through automating a task or building a new platform where users can connect and exchange information, I love working on projects that make people's lives easier. I've come to find that collaborating with partners & stakeholders intimately throughout the development process creates the best product. My current home is London, but I did move quite a lot around the world in the past few years. I have a knack for problem solving which always keeps me excited to dive into new challenges and get my hands on new software tools. I am addicted to listening to music (81,330 minutes in 2021 to be exact). When I'm not coding, you can find me practicing photography, playing chess, socialising, or creating yet another Spotify playlist. 😜</p>
             </div>
             <div class="photos">
-                <img class="myphoto" src="Images\blackwhite.jpg" alt="myphoto">
-                <img class="myphoto1" src="Images\sunset.JPG" alt="myphoto1">
-                <img class="myphoto2" src="Images\food.JPG" alt="myphoto2">
+                <img class="myphoto" src="Images\IMG_1836.JPG" alt="myphoto">
+                <img class="myphoto" src="Images\sunset.JPG" alt="myphoto">
+                <img class="myphoto" src="Images\food.JPG" alt="myphoto">
+                <img class="myphoto" src="Images\IMG_2748.JPG" alt="myphoto">
+                <img class="myphoto" src="Images\IMG_6244.jpg" alt="myphoto">
+                <img class="myphoto" src="Images\IMG_8327.jpg" alt="myphoto">
+                <img class="myphoto" src="Images\IMG_9774.JPG" alt="myphoto">
             </div>
-        </div>    
+        </div> 
     </section>    
 
 
-
+<!-- 
     <section id="s3">
-        <a target="_blank" href="file:///C:/Users/mouhy/OneDrive/Desktop/Zakaria%20CVx.pdf" ></a>
-    </section>    
+        <a target="_blank" href="https://1drv.ms/b/s!AjvBFzGwfgKJgQnG5HlH2eZNVgga" ></a>
+    </section>     -->
 
 
 
