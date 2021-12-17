@@ -1,30 +1,29 @@
 * {
-    font-family: sans-serif;
-    box-sizing: border-box;
+    font-family: 'Lucida Sans';
+    box-sizing: border-box; 
     margin: 0;
     padding: 0;
     
 }
 
 .navbar {
-    display:flex;
+    display: flex;
     z-index: 100;
     position: sticky;
     justify-content: space-between;
     background-color: white;
-    top: 0px;
+    margin-bottom: 1.5rem;
+    top: 0;
 }
 
 
 .menu {
     display: flex;
-    justify-content:space-between;
-    font-family: sans-serif;
+    justify-content:space-evenly;
     font-weight: bold;
-    list-style: none;
-    margin: 2rem;
-    padding-left: 2rem;
-    width: 20vw;
+    /* list-style: none; */
+    margin-top: 2rem;
+    width: 30vw;
 }
 
 #cv:visited {
@@ -41,8 +40,8 @@
 
 .contact {
     display: flex;
-    justify-content: space-evenly;
-    width: 20vw;
+    justify-content:space-evenly;
+    width: 30vw;
     margin-top: 2rem;
 }
 
@@ -56,10 +55,7 @@
 
 .title {
     text-align: center;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-top: 1em;
-    width: 20vw;
+    margin-top: 1.5rem;
 }
 
 .title:hover {
@@ -67,10 +63,9 @@
 }
 
 #title2 {
-    text-align: center;
     display: block;
-    font-weight: lighter;
-
+    font-weight:lighter;
+    color: rgb(92, 90, 90);
 }
 
 #title2:hover {
@@ -78,17 +73,17 @@
 }
 
 
-#s1 {
+#s1{
     display: flex; 
-    flex-direction: column;
-    flex-basis: 100%;
-    padding: 0.2rem;
+    flex-wrap: wrap;
+    justify-content:space-between;
 }
+
 
 .projectLink {
     position: relative;
-    width: 50vw;
-    margin: 0.1rem;
+    width: 49.3vw;
+    margin: 1px;
 }
 
 .overlay {
@@ -97,7 +92,7 @@
     width: 100%;
     height: 100%;
     opacity: 0;
-    transition: .7s ease;
+    transition: .3s ease;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -108,27 +103,29 @@
 .projectTitle {
     color: white;
     font-size: 20px;
-    text-align: center;   
+    text-align: center;  
+    position: absolute;
+    top: 50%;
+    left: 35%; 
 }
 
 .projectImage {
     width: 100%;
 }
 
-
 .foot {
     display: flex;
-    flex-direction: column;
+    flex-flow: column;
     background-color: white;
 }
 
 .copyright {
-    margin: 1em;    
+    margin-bottom: .5rem;
+    margin-left: 40rem;;    
 }
 
 .copyright2 {
-    margin-left: 1em;
-    
+    margin-left: 40rem;
 }
 
 #s2 {
@@ -141,9 +138,9 @@
 }
 
 .myphoto {
-    position: relative;
+    flex-grow: inherit;
     width: 18vw;
-    margin: 0.2rem;
+    margin: 0.5rem;
     margin-top: 2rem;
 }
 
