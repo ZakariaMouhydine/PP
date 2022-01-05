@@ -120,12 +120,7 @@
 }
 
 .copyright {
-    margin-bottom: .5rem;
-    margin-left: 40rem;;    
-}
-
-.copyright2 {
-    margin-left: 40rem;
+    text-align: center;
 }
 
 #s2 {
@@ -150,4 +145,15 @@
 
 #myBtn {
     position:sticky;
-}
+    margin-top: 20px;
+    line-height: 40px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+} 
+button:hover {
+    background: black;
+    color: white;
+  }
