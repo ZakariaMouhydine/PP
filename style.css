@@ -82,7 +82,7 @@
 
 .projectLink {
     position: relative;
-    width: 49.3vw;
+    width: 49.4vw;
     margin: 1px;
 }
 
@@ -111,8 +111,8 @@
 
 .projectImage {
     width: 100%;
-    /* width: 320px; */
-    /* height: 214px; */
+    height: 100%;
+    object-fit:cover;
 }
 
 .foot {
