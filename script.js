@@ -12,12 +12,12 @@ function hideSections() {
     }
 }
 
-
 function displaySection (id) {
     hideSections()
     document.getElementById(id).style.display="flex"
 
 }
+
 
 
 //Get the button:

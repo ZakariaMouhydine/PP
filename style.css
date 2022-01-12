@@ -11,11 +11,10 @@
     z-index: 100;
     position: sticky;
     justify-content: space-between;
-    background-color: white;
-    margin-bottom: 1.5rem;
+    background-color: white; opacity: 0.9;
+    padding-bottom: 1.5rem;
     top: 0;
 }
-
 
 .menu {
     display: flex;
@@ -131,8 +130,19 @@
 }
 
 .about1 {
+    display: flex;
     margin: 2rem;
     margin-bottom: 2rem;
+}
+
+.intro {
+    width:40%;
+    margin-right: 3em;
+}
+
+.photos {
+    width: 60%;
+    margin-left: 3em;
 }
 
 .myphoto {
