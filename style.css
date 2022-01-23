@@ -107,6 +107,7 @@
     text-align: center;
     font-size: 20px;  
     font-weight: lighter;
+    margin-top: 25%;
 }
 
 .projectDescription {
@@ -136,14 +137,14 @@
 
 .about1 {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 3rem;
+    margin-left: 3rem;
 }
 
 .intro {
     text-align: left;
     width:100%;
-    margin: auto;
+    
 }
 
 .photos {
@@ -155,31 +156,12 @@
     height: 100%;
     margin-right: auto;
     margin-left: auto;
-    /* margin: 0.5rem; */
-    /* margin-top: 2rem; */
 }
 
+/* 
 .section {
     background-color: rgb(226, 220, 197);
-}
-
-#myBtn {
-    position:fixed;
-    display: none;
-    z-index: 10;
-    bottom: 50px;
-    margin-top: 20px;
-    line-height: 40px;
-    font-weight: bold;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    margin: 10px;
-} 
-button:hover {
-    background: black;
-    color: white;
-  }
+} */
 
 @media only screen and (max-width:768px) {
     .intro {
