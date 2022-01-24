@@ -3,33 +3,35 @@
     box-sizing: border-box; 
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
 }
 
 .navbar {
     display: flex;
-    z-index: 100;
+    z-index: 200;
     position: sticky;
-    justify-content: space-between;
-    background-color: white; opacity: 0.9;
-    padding-bottom: 1.5rem;
     top: 0;
+    justify-content: space-between;
+    background-color: white; opacity: .8;
+    padding-bottom: 1.5rem;
 }
 
 .menu {
     display: flex;
     justify-content:space-evenly;
     font-weight: bold;
-    /* list-style: none; */
     margin-top: 2rem;
     width: 30vw;
 }
 
-#cv:visited {
-    color: black;
-}
 
 #cv {
     text-decoration: none;
+}
+
+#cv:visited {
+    color: black;
 }
 
 .menu:hover {
